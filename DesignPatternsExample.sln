@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34714.143
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatternsExample.Composite", "DesignPatternsExample.Composite\DesignPatternsExample.Composite.csproj", "{E9B7BB3A-2479-4915-BE4D-E9E215B28673}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatternsExample.Composite", "DesignPatternsExample.Composite\DesignPatternsExample.Composite.csproj", "{E9B7BB3A-2479-4915-BE4D-E9E215B28673}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatternsExample.UnitTest", "DesignPatternsExample.UnitTest\DesignPatternsExample.UnitTest.csproj", "{ED054750-9AB7-4FE2-B44B-8FF7DC7048B4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatternsExample.UnitTest", "DesignPatternsExample.UnitTest\DesignPatternsExample.UnitTest.csproj", "{ED054750-9AB7-4FE2-B44B-8FF7DC7048B4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatternsExample.Visitor", "DesignPatternsExample.Visitor\DesignPatternsExample.Visitor.csproj", "{C6F1057E-7880-4911-BCD5-183BCFF15B34}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{ED054750-9AB7-4FE2-B44B-8FF7DC7048B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ED054750-9AB7-4FE2-B44B-8FF7DC7048B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ED054750-9AB7-4FE2-B44B-8FF7DC7048B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6F1057E-7880-4911-BCD5-183BCFF15B34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6F1057E-7880-4911-BCD5-183BCFF15B34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6F1057E-7880-4911-BCD5-183BCFF15B34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6F1057E-7880-4911-BCD5-183BCFF15B34}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
