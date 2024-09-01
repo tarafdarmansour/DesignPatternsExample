@@ -26,6 +26,7 @@
   <ItemGroup>
     <ProjectReference Include="..\DDD.Specification\DDD.Specifications.csproj" />
     <ProjectReference Include="..\DesignPatternsExample.Composite\DesignPatternsExample.Composite.csproj" />
+    <ProjectReference Include="..\DesignPatternsExample.Memento\DesignPatternsExample.Memento.csproj" />
     <ProjectReference Include="..\DesignPatternsExample.Strategy\DesignPatternsExample.Strategy.csproj" />
     <ProjectReference Include="..\DesignPatternsExample.Visitor\DesignPatternsExample.Visitor.csproj" />
   </ItemGroup>
