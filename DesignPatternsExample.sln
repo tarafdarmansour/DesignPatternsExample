@@ -15,9 +15,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{DD8D312D-E
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DDD.Specifications", "DDD.Specification\DDD.Specifications.csproj", "{0AF146EB-A9C1-4DAA-A375-FAB026825808}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatternsExample.Strategy", "DesignPatternsExample.Strategy\DesignPatternsExample.Strategy.csproj", "{F08EE37D-314F-420B-99EB-F71B1674D158}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatternsExample.Strategy", "DesignPatternsExample.Strategy\DesignPatternsExample.Strategy.csproj", "{F08EE37D-314F-420B-99EB-F71B1674D158}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatternsExample.Memento", "DesignPatternsExample.Memento\DesignPatternsExample.Memento.csproj", "{7C5CBB1E-E491-40E6-9359-61101B1043C6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatternsExample.Memento", "DesignPatternsExample.Memento\DesignPatternsExample.Memento.csproj", "{7C5CBB1E-E491-40E6-9359-61101B1043C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatternsExample.ProtoType", "DesignPatternsExample.ProtoType\DesignPatternsExample.ProtoType.csproj", "{B1AF061A-0B05-4092-993D-9E380C13C25E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -49,6 +51,10 @@ Global
 		{7C5CBB1E-E491-40E6-9359-61101B1043C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7C5CBB1E-E491-40E6-9359-61101B1043C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7C5CBB1E-E491-40E6-9359-61101B1043C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1AF061A-0B05-4092-993D-9E380C13C25E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1AF061A-0B05-4092-993D-9E380C13C25E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1AF061A-0B05-4092-993D-9E380C13C25E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1AF061A-0B05-4092-993D-9E380C13C25E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -60,6 +66,7 @@ Global
 		{0AF146EB-A9C1-4DAA-A375-FAB026825808} = {569B12F1-05DE-4282-ABC8-CE71C0DA4C3F}
 		{F08EE37D-314F-420B-99EB-F71B1674D158} = {569B12F1-05DE-4282-ABC8-CE71C0DA4C3F}
 		{7C5CBB1E-E491-40E6-9359-61101B1043C6} = {569B12F1-05DE-4282-ABC8-CE71C0DA4C3F}
+		{B1AF061A-0B05-4092-993D-9E380C13C25E} = {569B12F1-05DE-4282-ABC8-CE71C0DA4C3F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2A1E5B5A-A5EA-4EDC-BFE1-8537C379BE87}
